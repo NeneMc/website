@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/portfolio-stylesheet.css">
+        <script type="text/javascript" src="../js/portfolio.js"></script>
+        <meta charset="UTF-8">
+        <meta name="author" content="Naoise Morrow">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Photography Portfolio">
+        <title>Portfolio</title>
+
+        <div class="header" id="myHeader">
+          <button class="btn" onclick="one()">1</button>
+          <button class="btn" onclick="two()">2</button>
+          <button class="btn" onclick="four()">4</button>
+        </div>
+    </head>
+    <body>   
+
+        <!-- Navbar-->
+        <div class="nav">
+            
+            <div class="logo">
+                <a href="../html/portfolio.html">PLUTO</a>
+            </div>
+
+            <li><a href="../html/portfolio.html">Home</a></li>
+            <li><a href="../html/aboutme.html">About Me</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contacts</a></li>
+
+        </div>
+
+        <!--Photo Table-->
+        <div class="row"> 
+            <div class="column">
+              <img src="images/log.jpg" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/fog.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/rooftop.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/pigeon.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/tire.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/claddagh1.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+            <div class="column">
+              <img src="images/train.jpg" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/robin.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/dog.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/boat.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/butterfly.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/cat.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+            </div>  
+            <div class="column">
+              <img src="images/emo.jpg" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/snail.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/bike.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/river.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/wave.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/darkhedges.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/birr.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+            <div class="column">
+              <img src="images/church.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/college.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/cow.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/neowise.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/claddagh2.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+              <img src="images/telescope.JPG" style="width:100%" onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+              <div class="modal-content">
+                <img id="img01" style="max-width:100%">
+              </div>
+            </div>
+
+    </body>
+</html>
